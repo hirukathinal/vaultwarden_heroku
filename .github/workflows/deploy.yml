@@ -1,5 +1,7 @@
 name: VaultwardenOnHeroku_Deploy
-
+runs:
+  using: 'node16'
+  main: 'main.js'
 on:
   workflow_dispatch:
 
